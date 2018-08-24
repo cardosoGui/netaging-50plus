@@ -1,7 +1,3 @@
-body {
-  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
-  background-color: rgb(247, 247, 247);
-}
 .capa-site {
   opacity: 0.3;
 }
@@ -26,7 +22,13 @@ body {
 .text-content {
   font-size: 1.33em;
 }
-.image-home {
+.card .card-image img {
+  height: 30em;
+}
+.tabs {
+  overflow-x: hidden;
+}
+/* .image-home {
   border-radius: 100%;
   margin: 1.5em 0.5em;
   height: 15em;
@@ -36,7 +38,7 @@ body {
   background-size: 100%;
   background-image: url("../img/backgrounds/dog.jpg");
   background-color: rgba(91, 99, 208, 0.186);
-}
+} */
 @media screen and (max-width: 1200px) {
   .slogan {
     bottom: 33em;
